@@ -41,7 +41,6 @@ INSTALLED_APPS = [
 ]
 
 MY_APPS = [
-    'django_browser_reload',
     'Nav',
     'Skills',
     'Contact',
@@ -58,9 +57,11 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django_browser_reload.middleware.BrowserReloadMiddleware'
+    'django.middleware.clickjacking.XFrameOptionsMiddleware'
 ]
+
+if DEBUG:
+    INSTALLED_APPS.append('django_browser_reload')
 
 ROOT_URLCONF = 'Portfolio.urls'
 
