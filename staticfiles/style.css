@@ -432,7 +432,7 @@ footer {
 
 @media (max-width: 600px) {
   .pro_div{
-    margin-top: 12rem;
+    margin-top: 32rem;
   }
 
   .pro_data_div{
@@ -523,6 +523,10 @@ footer {
 }
 
 @media(max-width: 400px){
+  .pro_div{
+    margin-top: 35rem;
+  }
+
   .main_body{
     width: 100vw;
     height: 100vh;
@@ -553,13 +557,40 @@ footer {
     width: 50vh;
   }
 
+  .cont_main_div{
+    width: 80%;
+  }
+
+    .cont_div h1{
+    font-size: 2rem;
+  }
+
+  .cont_div b{
+    font-size: 1.8rem;
+  }
+
+  .cont_div h2{
+    font-size: 1.5rem;
+  }
+
+  #cont_links a{
+  width: 7rem;
+  height: 7rem;
+  font-size: 5rem;
+  }
+
 }
 
 
 @media(max-width: 300px){
+  .pro_div{
+    margin-top: 27rem;
+  }
+
   .pro_data_div{
     height: 100vh;
   }
+
   .pro_fig{
     height: 50%;
     width: 80%;
@@ -583,12 +614,12 @@ footer {
   }
 
   .cont_main_div{
-    height:35vh;
+    height:30vh;
     width: 90vw;
   }
 
   .cont_div h1{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .cont_div b{
@@ -608,9 +639,6 @@ footer {
 }
 
 @media(max-width: 270px){
-  .pro_div{
-    margin-top: 15rem;
-  }
 
   .cont_main_div{
     height:29vh;
@@ -618,22 +646,45 @@ footer {
   }
 
   .cont_div h1{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .cont_div b{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .cont_div h2{
     font-size: 1rem;
-    display: inline;
+    display: inline-block;
   }
 
   #cont_links a{
   width: 4rem;
   height: 4rem;
   font-size: 2rem;
+  }
+
+}
+
+@media (max-width :240px){
+  .main_body{
+    margin-top: 8rem;
+  }
+
+  .pro_heading{
+    font-size: 2rem;
+  }
+
+  .pro_fig{
+    padding: 1rem;
+  }
+
+  .cont_main_div h2{
+    font-size: .8rem;
+  }
+
+  .cont_main_div h1{
+    font-size: 1rem;
   }
 
 }
